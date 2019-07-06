@@ -9,3 +9,14 @@ while correct_password != password:
 message = "Hi %s you are logged in" % name
 print(message)
 
+
+true_data = "Alpha234"
+
+Data = input("Enter your batch number : ")
+
+while Data != true_data:
+    Data = input("Wrong id , Re-enter :")
+
+message1 ="%s,you now have the access into the SkyNet corp." % name
+print(message1)
+
