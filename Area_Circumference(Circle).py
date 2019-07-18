@@ -2,7 +2,7 @@
 # Area and Circumference of a Circle
 
 class Circle():
-    a = int(input("Enter the radius:"))
+    a = float(input("Enter the radius:"))
     pi = 3.14
     def __init__(self,radius=a):
         self.radius = radius
